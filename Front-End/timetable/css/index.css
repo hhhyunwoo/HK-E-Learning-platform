@@ -1,0 +1,201 @@
+body{
+	padding: 0;
+	margin:  auto;
+	background-color: #ffffff;
+	font-family: Arial;
+	font-size: 16px; 	
+
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.container a:hover{
+background-color: red;
+}
+/*====================Student====================*/
+.content a{
+	text-align: center; 
+	text-decoration: none;
+}
+/*======================lesson and time table========================*/
+.RegMypage{
+	margin-top:300px;
+	margin-left: 500px;
+	width: 100%;
+}
+.RegMypage a{
+	
+	text-decoration: none;
+	padding: 50px;
+	margin:50px;
+	border: 2px solid black;
+	transition-duration: 2s; 
+	border-radius: 20px;
+	color: white;
+	background-color:  #34495e;
+}
+/*====================Student====================*/
+
+
+
+
+.checkbox{
+	background-color: #81a048e6;
+}
+
+.Register, .MyPage{
+
+	font-size: 26px; 	
+
+
+}
+
+header{
+	width: 100%;
+	background-color: #34495e;
+	padding-top: 30px;
+	min-height: 20px;
+
+}
+header #brand h1{
+	margin: 0;
+	margin-left: 30px;
+	color: white;
+	padding: 15px; 	
+}
+
+.table-fixed{
+	text-align: center;
+width: 90%;
+margin:30px;
+margin-left: 80px;
+background-color: #f7f7f9;
+border: 2px solid black;
+border-collapse: collapse;
+
+
+}
+  tbody{
+    height:300px;
+    overflow-y:auto;
+    width: 100%;
+    }
+    thead{
+    width: 100%;
+    background-color: #d4e9ae;
+    }
+  thead,tbody{
+    	display: block;
+  }
+th,td{
+	width: 200px;
+	padding: 10px;
+    float:left;
+    border: 1px solid black;
+    }
+.Ection{
+	margin-top:  50px;
+	margin-left: 700px;
+}
+.buttons{
+	width: 	100%;
+}
+.Enter{
+	    margin: 50px 30px 30px 550px;
+
+
+}
+.Edit{
+	margin-top: -50px;
+	margin-left: 1050px;
+	width: 100px;
+	
+}
+
+.Ection#ENTER#EDIT, a{
+	border: 1px solid black;
+	padding: 10px 20px 10px 20px;
+	border-radius: 10px;
+	background-color: #bcdd80a3;
+	font-family: Bold;
+	font-size: 20px; 
+}
+
+
+@media (max-width: 1080px){
+
+	header ,header h1,
+	.RegMypage #Button1 #Button2 ,
+	.RegMypage,
+	.RegMypage a,
+	header#brand ,
+	table,.table,
+	table .table,
+	table .table-fixed, .table-fixed,
+	table thead,tbody,
+	table thead th,
+	table tbody td,
+	thead, tbody,.container,
+	.Ection ,.buttons,
+	.buttons .Edit.Enter{
+		float: none;
+		width: 100%;
+		text-align: center;
+	} 
+	.RegMypage {
+		float: right;
+		width: 100%;
+		margin: 0px;
+		margin-right:  -20px;
+	
+	}
+	#Button1{
+		display: block;
+		width: 300px;
+		padding: 10px 20px 20px 10px;
+		margin-top: 250px;
+
+
+	}
+	#Button2{
+		display: block;
+		padding: 10px 20px 20px 10px;
+		margin-left: 50px;
+		width: 300px;
+	}
+ 		
+ 	.table-fixed{
+ 		width: 625px;
+ 	
+
+	}
+	.table{
+	width: 625px;
+
+	}
+	table{
+		margin:0;
+	}
+
+	.table-fixed th{
+		width: 80px;
+		font-size: 10px;
+	}
+		.table-fixed td{
+			width: 76.9px;
+		font-size: 10px;
+	}
+	header h1{
+		margin-right: -100px;
+
+	}
+	.Enter.Edit{
+		display: block;
+		float: right;
+	}
+
+
+
+}
+
