@@ -1,0 +1,63 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background: url(1.jpeg);
+    background-size: cover;
+}
+.signup
+{
+    background: rgba(44, 62, 80, 0.7);
+    padding: 60px;
+    width: 250px;
+    margin: auto;
+    margin-top: 60px;
+    height: 480px;
+    margin-left: center;
+    margin: center;
+}
+form
+{
+    width: 240px;
+    text-align: center;
+}
+input
+{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    font-weight: 200px;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+input[type=button]
+{
+    border: none;
+    width: 190px;
+    background: white;
+    color: #000;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 12px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input[type=button]:hover
+{
+    color: #fff;
+    background-color: black;
+}
+h2
+{
+    color: #000;
+}
+::placeholder
+{
+    color: aliceblue;
+    opacity: 0.8;
+}   

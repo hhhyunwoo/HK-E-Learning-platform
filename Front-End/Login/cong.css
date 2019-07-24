@@ -1,0 +1,28 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background: url(1.jpeg);
+    background-size: cover;
+}
+a
+{
+    color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+}
+.cong
+{
+    background: rgba(44, 62, 80, 0.7);
+    padding: 50px;
+    height: 200px;
+    margin-left: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 240px;
+}
+h2
+{
+    margin-top: 50px;
+    margin-left: 10px;
+}
