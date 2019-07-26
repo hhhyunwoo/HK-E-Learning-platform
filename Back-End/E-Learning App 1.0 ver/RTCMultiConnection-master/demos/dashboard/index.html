@@ -293,7 +293,7 @@ input[disabled], button[disabled] {
 </head>
 <body>
   <header style="margin-bottom: 20px;">
-    <img class="logo" src="/demos/logo.png" alt="RTCMultiConnection" /> <span class="logo-text">Dashboard Example</span>
+     <span class="logo-text">HK E-Learning Platform</span>
 
     <div style="float: right;margin-top: 15px;">
       <button class="btn btn-primary" data-toggle="modal" data-target="#startRoomModel">Create A New Room</button>
@@ -444,7 +444,7 @@ input[disabled], button[disabled] {
     </table>
   </section>
 
-  <footer style="text-align: center;">Dashboard + Video Conferencing + Chat + File Sharing</footer>
+  <footer style="text-align: center;">Thanks for Muaz Khan!!</footer>
 
 <script>
 // this object is used to get uniquie rooms based on this demo
@@ -525,7 +525,7 @@ function updateListOfRooms(rooms) {
         else {
           html += '<td><button class="btn join-room" data-roomid="' + room.sessionid + '" data-password-protected="' + (room.isPasswordProtected === true ? 'true' : 'false') +'">Join</button></td>';
         }
-        
+
         $(tr).html(html);
         $('#rooms-list').append(tr);
 
@@ -616,7 +616,7 @@ function joinAHiddenRoom(roomid) {
 function openCanvasDesigner() {
     $('#startRoomModel').modal('hide');
     var href = location.href + 'canvas-designer.html?open=' + connection.isInitiator + '&sessionid=' + connection.sessionid + '&publicRoomIdentifier=' + connection.publicRoomIdentifier + '&userFullName=' + connection.extra.userFullName;
-    
+
     if(!!connection.password) {
       href += '&password=' + connection.password;
     }
@@ -709,7 +709,7 @@ $('#btn-create-room').click(function() {
       }
 
       connection.password = roomPassword;
-    }    
+    }
 
     var initialHTML = $('#btn-create-room').html();
 
