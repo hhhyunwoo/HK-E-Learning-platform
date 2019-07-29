@@ -126,12 +126,12 @@ function serverHandler(request, response) {
         try {
             stats = fs.lstatSync(filename);
 
-            if (filename.search(/demos/g) === -1 && filename.search(/admin/g) === -1 && stats.isDirectory() && config.homePage === '/demos/index.html') {
+            if (filename.search(/demos/g) === -1 && filename.search(/admin/g) === -1 && stats.isDirectory() && config.homePage === '/demos/dashboard/index.html') {
                 if (response.redirect) {
-                    response.redirect('/demos/');
+                    response.redirect('/demos/dashboard/');
                 } else {
                     response.writeHead(301, {
-                        'Location': '/demos/'
+                        'Location': '/demos/dashboard/'
                     });
                 }
                 response.end();
