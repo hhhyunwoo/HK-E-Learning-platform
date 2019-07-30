@@ -141,6 +141,18 @@ width: 100px;
 		font-size: 20px; 
 	
 }
+.Delete{
+	margin-right: 150px;
+	float: right;
+	width: 100px;
+	border: 1px solid black;
+		padding: 5px 20px 5px 20px;
+		border-radius: 10px;
+		background-color: #bcdd80a3;
+		font-family: Bold;
+		font-size: 20px; 
+	
+}
 
 	/*#ENTER,#EDIT{
 		border: 1px solid black;
@@ -256,6 +268,9 @@ width: 100px;
 	}
 	.Enter{
 		margin-left: 500px;
+	}
+	.Delete{
+		margin-left: 350px;
 	}
 	.Ection{
 		display: block;
