@@ -278,7 +278,10 @@ ioServer(httpApp).on('connection', function(socket) {
 
     // ----------------------
     // below code is optional
-
+    socket.on('call', function(data){
+      console.log(data);
+      socket.emit('answer', 'php hi!');
+    });
     const params = socket.handshake.query;
 
     if (!params.socketCustomEvent) {
