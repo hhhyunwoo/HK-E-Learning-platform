@@ -83,7 +83,7 @@ nav li a{
   </table>
   <div class="buttons">
 		<div class="Enter">
-		<a href="https://192.168.43.70:9001/" target="_blank" id="ENTER">ENTER</a>
+		<a href="https://124.158.108.146:9001/" target="_blank" id="ENTER">ENTER</a>
 	</div>
 		<div class="Edit">
 		<a href="" id="EDIT">EDIT</a>
