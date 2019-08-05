@@ -113,7 +113,11 @@ nav li a{
   </table>
   <div class="buttons">
 		<div class="Enter">
+<<<<<<< HEAD:Back-End/E-Learning App 1.0 ver/htdocs/whitecow-home-folder/timetable/MyPage.php
 		<a href="https://124.158.108.146:9001" target="_blank">ENTER</a>
+=======
+		<a href="https://124.158.108.146:9001/" target="_blank" id="ENTER">ENTER</a>
+>>>>>>> 7c0ef7aeed7fa1d3544d9ae70880c70fae830b6e:Back-End/E-Learning App 1.0 ver/htdocs/timetable/MyPage.php
 	</div>
 
 		</div>
