@@ -118,7 +118,7 @@ nav li a{
   </table>
   <div class="buttons">
 		<div class="Enter">
-		<a href="https://124.158.108.146:9001/" target="_blank" id="ENTER">ENTER</a>
+		<a href="https://online.huree.edu.mn/RTCMultiConnection-master/demos/dashboard/" target="_blank" id="ENTER">ENTER</a>
 		</div>
 
 
