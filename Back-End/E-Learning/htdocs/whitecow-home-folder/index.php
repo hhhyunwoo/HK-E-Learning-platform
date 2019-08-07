@@ -57,7 +57,7 @@
                     <a class="nav-link js-scroll-trigger" href="logout.php">LogOut</a>
                     <!--echo "<script>alert('잘못된 접근입니다.'); history.back();</script>";-->
             <?php }else{?>
-                    <a class="nav-link js-scroll-trigger" href=".\login.php">LogIN</a>
+                    <a class="nav-link js-scroll-trigger" href="login/login.php">LogIN</a>
                     <!--echo "<script>alert('잘못된 접근입니다.'); history.back();</script>";-->
             <?php }?>
           </li>
