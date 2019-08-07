@@ -75,7 +75,7 @@
       <div class="intro-text">
         <div class="intro-heading text-uppercase">HK <br>E-Learning Platform</div>
         <a class="btn btn-primary btn-xl text-uppercase " href="timetable/">Student</a>
-        <a class="btn btn-primary btn-xl text-uppercase " href="__RFQ/index_AM.php">Professor</a>
+        <a class="btn btn-primary btn-xl text-uppercase " href="professor/professor.php">Professor</a>
       </div>
     </div>
   </header>

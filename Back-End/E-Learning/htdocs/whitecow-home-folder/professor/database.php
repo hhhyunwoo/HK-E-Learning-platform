@@ -58,10 +58,10 @@ Class Database {
 	 			}else{
 	 				echo "error ";
 	 			}
-
+	 			
 	 	}
-
-
+	
+	
 }
 
 

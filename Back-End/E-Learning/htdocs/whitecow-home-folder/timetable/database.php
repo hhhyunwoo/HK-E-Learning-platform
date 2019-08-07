@@ -10,11 +10,11 @@ Class Database{
 	}
 
 	function connectionDb(){
-	
+
        $this->conn =new mysqli('localhost', 'online', 'Go876InFoSys!123','online');
 
 		if ($this->conn) {
-            
+
 		}else{
 			echo "fail";
             $this->error = "Connection error" .$this->conn->connect_error;
@@ -51,7 +51,7 @@ Class Database{
 	 	echo mysqli_error($this->conn);
 	 		}
 	 	}
-	
+
 }
 
 
