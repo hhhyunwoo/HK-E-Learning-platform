@@ -28,7 +28,7 @@ $db = new Database();
 				$_SESSION['userId'] = $row['id'];
 				$_SESSION['email'] = $row['email'];
 				$_SESSION['type'] = $row['type'];
-				header('Location: index.php');
+				header('Location: ../index.php');
 			} else {
 				echo 'Wrong Email or Password!';
 			}
