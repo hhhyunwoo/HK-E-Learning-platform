@@ -1,6 +1,6 @@
 <?php
 
 DEFINE('DBHOST','localhost');
-DEFINE('DBUSER','root');
-DEFINE('DBPASS','');
-DEFINE('DBNAME','onlinelesson');
+DEFINE('DBUSER','online');
+DEFINE('DBPASS','Go876InFoSys!123');
+DEFINE('DBNAME','online');
