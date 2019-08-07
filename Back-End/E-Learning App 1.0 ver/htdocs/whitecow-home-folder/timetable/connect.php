@@ -1,5 +1,6 @@
 <?php 
 	define('DB_HOST','localhost');
-	define('DB_USER', 'root');
-	define('DB_PASS', '');
-	define('DB_NAME', 'onlinelesson');
+	define('DB_USER', 'online');
+	define('DB_PASS', 'Go876InFoSys!123');
+	define('DB_NAME', 'online');
+?>

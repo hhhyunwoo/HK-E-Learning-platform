@@ -6,17 +6,23 @@
  
 	$db = new Database();
 	$lesson= $db->queryHewleh("
-		SELECT tt.id, tu.first_name, l.name, tt.time, tt.date FROM users AS tu
-		INNER JOIN teacher_lesson AS tl ON tu.id = tl.teacher_id 
-		INNER JOIN lesson AS l ON l.id = tl.lesson_id 
-		INNER JOIN timetable AS tt ON tl.id = tt.tl_id 
-		WHERE tu.type = 'professor'
-		");
+            SELECT tt.id, u.first_name, l.name, tt.date, tt.time FROM users AS u 
+            INNER JOIN timetable AS tt  ON tt.teacher_id = u.id  
+            INNER JOIN lesson AS l ON l.id = tt.lesson_id  ORDER BY tt.id DESC
+            ");
 	
 
+/*	if ($result = $db->conn->query('SELECT * FROM lesson')) {
+    // 레코드 출력
+    while ($row = $result->fetch_object()) {
+        echo $row->name.' / '.$row->id.'<br />';
+    }
+     
+    // 메모리 정리
+    $result->free();
+	}
 
-
-
+*/
 	?>
 
 

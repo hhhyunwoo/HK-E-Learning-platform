@@ -1,11 +1,6 @@
 <?php
-include 'connect.php';
 
 Class Database{
-	public $host = DB_HOST;
-	public $user = DB_USER;
-	public $pass = DB_PASS;
-	public $dbname = DB_NAME;
 
 	public $conn;
 	public $error;
@@ -15,16 +10,18 @@ Class Database{
 	}
 
 	function connectionDb(){
-		$this->conn = new Mysqli($this->host,$this->user,$this->pass,$this->dbname);
 
-		 mysqli_set_charset($this->conn,'utf8');
+       $this->conn =new mysqli('localhost', 'online', 'Go876InFoSys!123','online');
+
 		if ($this->conn) {
 
-
 		}else{
-			$this->error = "Connection error" .$this->conn->connect_error;
+			echo "fail";
+            $this->error = "Connection error" .$this->conn->connect_error;
 			return false;
 		}
+        mysqli_set_charset($this->conn,'utf8');
+
 	}
 	function queryHewleh($query){
 		$vrdvn = $this->conn->query($query);
@@ -54,7 +51,7 @@ Class Database{
 	 	echo mysqli_error($this->conn);
 	 		}
 	 	}
-	
+
 }
 
 

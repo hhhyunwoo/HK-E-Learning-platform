@@ -3,16 +3,19 @@
 <head>
 	<?php include 'database.php';
   $db=new Database();
-
+    
+ /*      $lesson= $db->queryHewleh("
+SELECT * from `lesson` WHERE 1");
+*/
     $lesson= $db->queryHewleh("
-SELECT tt.id, tu.first_name, l.name, tt.time, tt.date FROM users AS tu
-INNER JOIN teacher_lesson AS tl ON tu.id = tl.teacher_id
-INNER JOIN lesson AS l ON l.id = tl.lesson_id
-INNER JOIN timetable AS tt ON tl.id = tt.tl_id
-INNER JOIN classroom AS cl ON cl.timetable_id = tt.id
-INNER JOIN users AS su ON su.id = cl.student_id
-WHERE su.type = 'student' AND su.id = 1
-      ");
+  SELECT tt.id, tu.first_name, l.name, tt.time, tt.date FROM users AS tu
+  INNER JOIN timetable AS tt ON tt.lesson_id = tt.teacher_id
+   
+  INNER JOIN lesson AS l ON l.id = tt.lesson_id 
+  INNER JOIN classroom AS cl ON cl.timetable_id = tt.id 
+  INNER JOIN users AS su ON su.id = cl.student_id 
+  WHERE su.type = 'student' AND su.id = 1
+            ");
 
 if (isset($_GET['delete'])) {
   $delete_id=$_GET['delete'];
@@ -95,14 +98,16 @@ nav li a{
       foreach ($lesson as $value) {
       ?>
       <tr>
-        <td class="col-xs-3"><?php echo $value['name'];?></td>
+        <td class="col-xs-3"><?php echo $value['teacher_id'];?></td>
         <td class="col-xs-6"><?php echo $value['first_name'];?></td>
         <td class="col-xs-3"><?php echo $value['name'];?></td>
         <td class="col-xs-3"><?php echo $value['time'];?> <?php echo $value['date'];  ?></td>
          <td class="col-xs-3">
           <a href="MyPage.php?delete=<?php echo $value['id'];?>" onclick="return confirm('Are you sure?');" > Delete</a></td>
       </tr>
-      <?php } } ?>
+      <?php } 
+        }
+?>
 
 
 
@@ -113,13 +118,7 @@ nav li a{
   </table>
   <div class="buttons">
 		<div class="Enter">
-<<<<<<< HEAD:Back-End/E-Learning App 1.0 ver/htdocs/whitecow-home-folder/timetable/MyPage.php
-		<a href="https://124.158.108.146:9001" target="_blank">ENTER</a>
-=======
 		<a href="https://124.158.108.146:9001/" target="_blank" id="ENTER">ENTER</a>
->>>>>>> 7c0ef7aeed7fa1d3544d9ae70880c70fae830b6e:Back-End/E-Learning App 1.0 ver/htdocs/timetable/MyPage.php
-	</div>
-
 		</div>
 
 

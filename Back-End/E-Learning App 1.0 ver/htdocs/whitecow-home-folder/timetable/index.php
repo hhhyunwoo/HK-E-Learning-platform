@@ -3,7 +3,7 @@
 <head>
 	<?php include 'database.php'; 
 	$db=new Database();
-	$db->connectionDb();	
+//	$db->connectionDb();	
 	?>
 
 
