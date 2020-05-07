@@ -1,4 +1,6 @@
 # HK-E-Learning-platform
+![image](https://user-images.githubusercontent.com/37402136/81311802-cfa46700-90c0-11ea-9117-43c45f800a6e.png)
+
 Huree Univ &amp; Kyungpook Univ Collaboration E-learning Platform with videotelephony
 
 Funciton : 
