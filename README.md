@@ -18,5 +18,10 @@ https://www.youtube.com/watch?v=wTvGk4qPfUg&list=PLPRQUXAnRydKdyun-vjKPMrySoow2N
 
 RTCmulticonnection 폴더에 위치한 old-server.js를 node 명령어를 통해 열어 놓는다.
 
+![image](https://user-images.githubusercontent.com/37402136/81311784-c9ae8600-90c0-11ea-82ee-096374addc9f.png)
+
+
+![image](https://user-images.githubusercontent.com/37402136/81311794-cddaa380-90c0-11ea-932c-979accb24708.png)
+
 
 Thanks for Muaz Khan.
