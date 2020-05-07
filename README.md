@@ -4,8 +4,10 @@ Huree Univ &amp; Kyungpook Univ Collaboration E-learning Platform with videotele
 Funciton : 
 Login 
 
-First Muaz khan 모듈을 하나씩 다운받아야한다. 또한 http는 실행이안되고 https 만된다. 이유는 모르겠다.
-무ㅇ
+First Muaz khan 모듈을 하나씩 다운받아야한다. 
+
+http는 실행이 되지 않고, https는 실행이 가능하다.
+
 
 https://www.youtube.com/watch?v=wTvGk4qPfUg&list=PLPRQUXAnRydKdyun-vjKPMrySoow2N4tl
 에서 Muaz Khan의 실행법을 천천히 따라가서 module을 다운받아야한다.
