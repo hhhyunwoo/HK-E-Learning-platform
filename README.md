@@ -8,7 +8,7 @@ Login
 
 First Muaz khan 모듈을 하나씩 다운받아야한다. 
 
-http는 실행이 되지 않고, https는 실행이 가능하다.
+WebRTC의 보안때문에 http에서는 작동하지 않는다. 따라서 https로 서버를 실행하여야 한다.
 
 
 https://www.youtube.com/watch?v=wTvGk4qPfUg&list=PLPRQUXAnRydKdyun-vjKPMrySoow2N4tl
