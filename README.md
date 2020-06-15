@@ -5,14 +5,12 @@
 
 Huree Univ &amp; Kyungpook Univ Collaboration E-learning Platform with videotelephony
 
-Funciton : 
-Login 
 
 
 
+
+**[How to use]**
 ------
-
-**[]**
 First Muaz khan 모듈을 하나씩 다운받아야한다. 
 
 WebRTC의 보안때문에 http에서는 작동하지 않는다. 따라서 https로 서버를 실행하여야 한다.
@@ -32,3 +30,9 @@ RTCmulticonnection 폴더에 위치한 old-server.js를 node 명령어를 통해
 
 
 Thanks for Muaz Khan.
+
+**[Features]**
+------
+
+**[Documentation]**
+------
