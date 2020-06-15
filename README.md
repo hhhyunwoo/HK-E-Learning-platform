@@ -1,4 +1,6 @@
 # HK-E-Learning-platform
+2018.07~2018.08 World Friends ICT Volunteer work
+
 ![image](https://user-images.githubusercontent.com/37402136/81311802-cfa46700-90c0-11ea-9117-43c45f800a6e.png)
 
 Huree Univ &amp; Kyungpook Univ Collaboration E-learning Platform with videotelephony
@@ -6,6 +8,11 @@ Huree Univ &amp; Kyungpook Univ Collaboration E-learning Platform with videotele
 Funciton : 
 Login 
 
+
+
+------
+
+**[]**
 First Muaz khan 모듈을 하나씩 다운받아야한다. 
 
 WebRTC의 보안때문에 http에서는 작동하지 않는다. 따라서 https로 서버를 실행하여야 한다.
